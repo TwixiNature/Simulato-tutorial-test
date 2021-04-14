@@ -1,0 +1,21 @@
+{
+  "name": "simulato-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "simulato run -T ./tests",
+    "start-test-site": "npm explore simulato-test-site -- npm start",
+    "generate-tests": "simulato generate -o ./tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-beta.2",
+    "simulato": "^0.6.1",
+    "simulato-test-site": "^1.0.2"
+  },
+  "devDependencies": {
+    "chromedriver": "^89.0.0"
+  }
+}
